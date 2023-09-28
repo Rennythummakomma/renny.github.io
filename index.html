@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Email Link</title>
+</head>
+
+<body>
+    <div id="section1">
+        <div class="d-flex flex-row">
+            <div class="row">
+                <div class="home_bg_cont d-flex flex-column col-12 ">
+                    <div>
+                        <div class="d-flex flex-row justify-content-center col">
+                            <img class="image d-flex flex-row justify-content-center" src="https://i.pinimg.com/originals/85/81/42/8581425e8ea241666d6583d1f327fdf8.jpg" />
+                        </div>
+                        <h1 class="home_header d-flex flex-row justify-content-center">T. Renny</h1>
+                    </div>
+                    <div class=" d-flex flex-column justify-content-end">
+                        <button class="home_button m-2" onclick="display('section1')">Home</button>
+                        <button class="home_button m-2" onclick="display('section2')">About me</button>
+                        <button class="home_button m-2" onclick="display('section3')">Resume</button>
+                        <button class="home_button m-2" onclick="display('section4')">portfolio</button>
+                        <button class="home_button m-2" onclick="display('section5')">Contact info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="home_bg_cont2 d-flex flex-column justify-content-center col-12">
+                <p class="h_para p-2 m-1">Hi there,</p>
+                <h1 class="h_header p-2 m-1">I'm Renny Thummakomma!!</h1>
+                <p class="h_para p-2 m-1"> I'm Developer</p>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="about">
+            <button class="btn btn-primary" onclick="display('section1')">Back</button>
+            <h1 class="about_header"> Discover! who am I</h1>
+            <p class="about_para"> Hi I'm renny,& I am passionately curious.<br />
+                I'm a recent Btech Graduate(2023 passout) majored in CSE from JBIET Hyderabad with an aggregate of 8.49 CGPA .<br />
+                I Believe in Hardwork & I'm good with Python, Java, mySQL, HTML, CSS, SQLite, Dbms, Data Structures, Algorithms and MS office tools.<br />
+                I'm an enthusiastic and a steadfast person. I Love to learn new things and to explore and to improve myself.I'm a Huge fan of Food, Music,Travel and Innovation.<br />
+                Currently I'm looking for an opportunity to join an organization that effectively utilizes my skills and abilities in developing applications and will offer me opportunities to grow</p>
+        </div>
+    </div>
+    <div id="section3">
+        <div class=resume_bg>
+            <button class="btn btn-primary" onclick="display('section1')">Go Back</button>
+            <div class="resume_head text_box1 d-flex flex-column">
+                <a class="resume_header d-flex flex row justify-content-center" href="https://drive.google.com/file/d/1TlRwytW-DQB0jIZHwyjp7UEuePjVt1Nf/view?usp=drive_link" target="_blank">RESUME</a>
+                <h1 class="rt_header">Education</h1>
+                <div class="d-flex flex-row resume_txt_pad">
+                    <div>
+                        <h1 class="re_header">B.Tech</h1>
+                        <ul>
+                            <li>(2020-2023)</li>
+                            <li>Computer Science and Engineering</li>
+                            <li>J.B. Institute of Engineering and Technologyy</li>
+                            <li>CGPA-8.49</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="re_header">Diploma</h1>
+                        <ul>
+                            <li>(2017-2020)</li>
+                            <li>Diploma in Mining Engineering</li>
+                            <li>Government Polytechnic college Kothagudem</li>
+                            <li>84.03%</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="re_header">class10(SSC)</h1>
+                        <ul>
+                            <li>(2016-2017)</li>
+                            <li>Telangana state Board of Secondary School Certificate Examination </li>
+                            <li>Little Buds High School</li>
+                            <li>CGPA-8.8</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="rt_header">Skills</h1>
+                    <p>Frontend: HTML,CSS</p>
+                    <p>Backend: mySQL,SQLite</p>
+                    <p>Programming Languages: Python,Java</p>
+                    <p>Data Structures,Algorithms,Ms Excel,Ms Word</p>
+                </div>
+                <h1 class="rt_header">Professional Experience</h1>
+                <p class="para">Projects</p>
+                <p class="para">BTech Major project: Vigorous malware detection in IOT devices using machine Learning</p>
+                we presented a deeplearning based method to detect Internet Of Battlefield Things (IoBT)
+                malware via the device’s Operational Code (OpCode) sequence.We transmute OpCodes into a vector
+                space and apply a deep Eigenspace learning approach to classify malicious and benign application<br />
+                <p>Technologies used : HTML,CSS,Mysql,Python.</p>
+                <p class="para">BTech Internship mini project: Area Wise Educational Institutions Ranking Prediction</p>
+                <p>Technologies used: Python,,Mysql, KNN,LR,SVM</p>
+                <h1 class="rt_header">Achievements and Certifications</h1>
+                <p>1. Python(Basic) 2023
+                    Hackerank - E01A364F82BB<br />
+                    2. SQL(Basic) 2023
+                    Hackerank- E01A364F82BB<br />
+                    3. Accenture Nordics Developer Program 2022
+                    Accenture - e4zEFPRd6EJwHw4gW<br />
+                    4. District First in Lori writing competetion 2022
+                    conducted by Ministry of Culture GOV INDIA<br />
+                    5. 2nd star python badge 2021
+                    Hackerank<br />
+                    6. Volunteer 2020 - 2023
+                    NSSJbiet
+                </p>
+                <div class="d-flex flex-row">
+                    <div class="t_pad">
+                        <h1 class="rt_header">Strengths</h1>
+                        <p>Focuse<br />
+                            Approachable<br />
+                            Adaptable<br />
+                            Detail oriented<br />
+                            Problem solving<br />
+                            Analytical Skills<br />
+                        </p>
+                    </div>
+                    <div class="t_pad">
+                        <h1 class="rt_header">Interests<br />/Hobbies</h1>
+                        <p>Chess<br />
+                            Book Reading<br />
+                            Coin collection<br />
+                            Music<br />
+                        </p>
+                    </div>
+                    <div class="t_pad">
+                        <h1 class="rt_header">Languages Known</h1>
+                        <p>Telugu<br />
+                            Hindi<br />
+                            English<br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="p_bg">
+            <button class="btn btn-dark" onclick="display('section1')">GO BACk</button>
+            <div class="p_frst_box">
+                <h1 class="p_fbox_header">Portfolio</h1>
+                <p class="p_para">click on the cards to see my portfolios of related category</p>
+            </div>
+            <div>
+                <div class="p_txt_card" onclick="display('section-p-1')">
+                    <h1 class="p_header">Programming</h1>
+                    <p class="p_para">As a software engineer graduate I've been doing programming
+                        for the past 3 years and I'm happy about the progress that I'm achieving.<br />
+                        The languages that I'm good at were Python,Java</p>
+                    <p class="p_para">Click on & Discover more!!</p>
+                </div>
+                <div class="p_txt_card">
+                    <h1 class="p_header" onclick="display('section-p-2')">Web Development</h1>
+                    <p class="p_para">I'm good at web designing and development.I'm currently working HTML,CSS,bootstrap and flex-box<br />
+                        I'm also planning to learn JavaScript and NodeJs </p>
+                </div>
+                <div class="p_txt_card" onclick="display('section-p-3')">
+                    <h1 class="p_header">Projects</h1>
+                    <p class="p_para"> Access all my projects by clicking here!!<br />
+                        These will show case my skills and proven abilities
+                        trough my coursework and independent research I've done these projects</p>
+                </div>
+                <div class="p_txt_card" onclick="display('section-p-4')">
+                    <h1 class="p_header">Interests</h1>
+                    <p class="p_para">I'm Passionate about Literature I love reading books I'm into Devotional,fantasy,Non-fiction etc
+                        click to know more....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section-p-1" class="p_txt_card">
+        <button class="btn btn-dark" onclick="display('section4')">GO BACk</button>
+        <ol class="p_para">
+            <li>Python(Basic) 2023 Hackerank - E01A364F82BB</li>
+            <li>SQL(Basic) 2023 Hackerank- E01A364F82BB</li>
+            <li>2nd star python badge 2021 Hackerank</li>
+            <li>Completed Accenture Nordics Developer Pragram</li>
+        </ol>
+    </div>
+    <div id="section-p-2" class="p_txt_card">
+        <button class="btn btn-dark" onclick="display('section4')">GO BACk</button>
+        <p class="p_para">Hey I've developed This website!!</p>
+    </div>
+    <div id="section-p-3" class="p_txt_card">
+        <button class="btn btn-dark" onclick="display('section4')">GO BACK</button>
+        <ol class="p_para">
+            <li class="m-2 pb-5">
+                <h1 class="p_lst_header">
+                    BTech Major project: Vigorous malware detection in IOT devices using machine Learning
+                </h1>
+                we presented a deeplearning based method to detect Internet Of Battlefield Things (IoBT) malware
+                via the device’s Operational Code (OpCode) sequence.We transmute OpCodes into a vector space and
+                apply a deep Eigenspace learning approach to classify malicious and benign application<br />
+                Technologies used : HTML,CSS,Mysql,Python.
+            </li>
+            <li class="m-2 pb-5">
+                <h1 class="p_lst_header">
+                    BTech Internship mini project: Area Wise Educational Institutions Ranking Prediction
+                </h1>
+                Technologies used: Python,,Mysql, KNN,LR,SVM
+            </li>
+            <li class="m-2 pb-5">
+                <h1 class="p_lst_header">ECO-BIN Transforming Trash Through Technology</h1>
+                <p>I had Developed a Website as part of Accenture Innovation Challenge-2023<br />
+                    It comprises IOT- enabled smart waste bins, real-time data analytics, and a user-friendly
+                    website accessible via browsers.The big idea is to optimize waste collection, promote recycling,
+                    and reduce environmental impact.</p>
+            </li>
+        </ol>
+    </div>
+    <div id="section-p-4" class="p_txt_card">
+        <button class="btn btn-dark" onclick="display('section4')">GO BACk</button>
+        <ol>
+            <li>
+                <h1 class="p_lst_header">Books I've Read</h1>
+                <ol>
+                    <li> Harry Potter Sorcerers stone</li>
+                    <li>Harry Potter and the chamber of secrets</li>
+                    <li>How to eat That frog 21 ways to stop procrastination</li>
+                    <li>Authentic Christian</li>
+                    <li>Time for the Talk</li>
+                </ol>
+            </li>
+            <li>
+                <h1 class="p_lst_header">My Writings</h1>
+                <p>I've received District First price in Lori Writing competetion conducted by The Government Of India Ministry of culture</p>
+            </li>
+            <li>
+                <h1 class="p_lst_header">Volunteer Experience</h1>
+                <p>I was an active member in my college NSS JBIET club</p>
+                <p> I was a member of Orators club of my college JBIET</p>
+            </li>
+        </ol>
+    </div>
+    <div id="section5">
+        <div class="wcu-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="btn btn-dark" onclick="display('section1')">GO BACK</button>
+                        <h1 class="wcu-section-heading">Reach me out!!</h1>
+                        <p class="wcu-section-description">
+                            Now you can connect with me through diverse ways
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="wcu-card p-3 mb-3">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUMZMX///8AYcQAWcFDf8nL3PIAWrzQ3vMAYcI0eclZj
+                tAucslAgsz6/v3x9/sgbclOhM8AX8QAYsAAX70AV70AWMLm7vgAXb4sdsw5fsoRbsVmltK6z+iUt+AMZcGDrN3c6fNvnddiltWqwuPA0+r0+vyOrt+lweR9pduuyueUst9Lh81pldd1mtYdbcunxOXO4u7Z4fGRyVlRAAAEKUlEQVR4nO3ce1faMBzG8SblEpSCiUUuQrkMhsCc+v7f3Ko4KjW/yLY0WXOez9mf4Ml3vSW1NYoAAAAAAAAAAAAAAAAAAAAAAAAAAADgYiriIsqU72FURcapGnXHk5aMue+xVCCT6n56x960Z2OpMt8jsozz+Xve0Xqc+h6SXbKzYOeSfex7UBap+J591lThHI3awPxw5KGcVFUj0RayaRrI6UaUj8GTpfA9NivknApkvTC2YdwjC9lc+h6dBWpFB7JFCIXx1FDIRr6HZ0Fq2EkZewjgXNMnLhVH34a+x/fPeMdYOK3/gchvTIFsXf/ZKR+bC+u/DcW1cS/d1f84jFobU+H3ANYXadNU2PU9PAvkd0Ngz/forMgMhU/1P5Xm4h0ZmHQCOAzz68WEPNdsg9iE+ZH4QATeBTApPYqf9PvoKIh99E2qOxQ3jVvf47JHDT5fMl5GAQW+3tNvnF/4N3shwrhJc8Ljw/Q0Q13MJ4GcRc8IORjP99vZfpWlQe2gH3EZx7Gs/4IJAADqQ3DJX/+FM38vqHyKlA5Hhx+Pj49X43468P34CheEiz9Z+pTMlrvFaQ6YbNrblRpKf6vNbHRNKX2yT/kwSVd5XluzGGs//Ew9NfIGS/RYs3X2yUGzp7dpnMYu+zPql1mbp46f+XxeSCkVxrpt8+bmWJgJOTPeYP7m5QkWi4Wye0d94t3m3sNmtFao5OyLvle7zPnRaKlQCb6+IDBfXvddJ1oq5BH5WE7JXd/xwWilUKnJpYGM9a7dPk5mpfCWP18cmO+okdOtaKVwYHxm5ZP1wOWNPBuFneUfBTK2dHkzyEbhwfirco3NxOF+aqPw8rPMbzuHV34bhX+h4e6q6KnQ4ZM6ngrZyNlG9FXo7hfMvgp7zt7o8FXIDq52U2+FznbTKgovmgAsalq4mB0mQqjJYfvler98o6sWhevuYPh2C5jz4WD1ReMPR4soi4W91dmtXy7MK469o7mpvcLn8nRaSWPi9PzH/++FCXvW3LuXpoXxi6MllK1tqHtGLBMd0zccLYNtFR60W8T0wkqv7yTQVuGTfpfLuvRXkms3sxo7hQlx/yy7NayOO3Uq3MXExY148PFY6OZyYafwihqsXNJfGteoMCGXQoYfzxo1KmxSO2kkJvTLcXUq3BreraFnp3UqNLwT3aJPpnUqPNBjTV+CKDScFVv0t+pUaLiytegXq1BoCQoLKNRDYfVQWEChHgqrh8ICCvVQWD0UFlCoh8LqobCAQj0UVg+FBRTqobB6KCygUA+F1UNhAYV6KKweCgso1ENh9VBYQKEeCquHwkKAhe1SIf2UoaFwSP+/dB29FtTvUsbnH+Q3VxTDmxOq+zffskqJiOtFpZda+OV/M6uQKepLof0NWAAAAAAAAAAAAAAAAAAAAAAAAAAAgAr8Aj5RWY0PDbn2AAAAAElFTkSuQmCC" class="wcu-card-image" />
+                            <h1 class="wcu-card-title mt-3">Linkedin</h1>
+                            <a class="wcu-card-description" href="https://www.linkedin.com/in/renny-thummakomma-4ab288224" target="_blank">Click to connect :)
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="wcu-card p-3 mb-3">
+                            <img src="data:image/png;base64,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" class="wcu-card-image" />
+                            <h1 class="wcu-card-title mt-3">Gmail</h1>
+                            <a class="wcu-card-description" a href="mailto:renny.thummakomma@gmail.com" target="_blank">Click here to mail me
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="wcu-card p-3 mb-3">
+                            <img src="data:image/png;base64,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" class="wcu-card-image" />
+                            <h1 class="wcu-card-title mt-3">Github</h1>
+                            <a class="wcu-card-description" href="https://github.com/Rennythummakomma/Rennythummakomma" target="_blank">Click to connect :)
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="wcu-card p-3 mb-3">
+                            <img src="data:image/jpeg;base64,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" class="wcu-card-image" />
+                            <h1 class="wcu-card-title mt-3">Instagram</h1>
+                            <a class="wcu-card-description" href="https://www.instagram.com/rennyralph/" target="_blank">Click to connect :)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
