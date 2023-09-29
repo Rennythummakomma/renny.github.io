@@ -1,14 +1,15 @@
 
 .home_bg_cont {
-    background-color: #c79a58;
+    background-image: url("https://i.pinimg.com/474x/c2/13/c1/c213c15cfd740c3a923f96d7d8397df1.jpg");
+    background-size: cover;
     height: 100vh;
-    width: 30vw;
+    width: auto;
     padding: 10px;
 }
 
 .image {
-    max-width: 100%;
-    height: auto;
+    height: 100px;
+    width: auto;
     margin: 10px;
     border-radius: 60px;
     border-style: solid;
@@ -17,56 +18,61 @@
 }
 
 .home_header {
-    text-align: center;
-    font-family: cursive;
-    color: white;
+    font-family: "cursive";
+    color: black;
+    background-color: white;
     font-size: 20px;
-    margin: 0px;
     padding: 10px;
 }
 
+.home_buttons {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
 .home_button {
-    height: auto;
-    width: auto;
     margin: 10px;
     border-radius: 10px;
     background-color: silver;
+    color: black;
+    font-weight: bold;
 }
 
 .home_bg_cont2 {
-    background-image: url("https://i.pinimg.com/474x/d5/c9/74/d5c974a00e9ddcdc6fb6c06ecdd5a01d.jpg");
+    background-image: url("https://i.pinimg.com/474x/81/f4/66/81f4661ddd868aa233f4be477ea88bbf.jpg");
     background-size: cover;
-    height: auto;
+    height: 100vh;
     width: 100vw;
-    color: black;
-
-}
-
-.h_header {
-    font-family: "Roboto";
-    color: black;
+    color: white;
     font-weight: bold;
-    margin: 10px;
+    padding: 10px;
 }
 
-.h_para {
-    font-family: "Roboto";
-    color: black;
-    font-size: 30px;
-    font-weight: 100;
+.home_header_1 {
+    font-family: "Caveat";
+    font-weight: bold;
+    color: white;
+}
+
+.home_para_1 {
+    font-family: "Caveat";
+    font-weight: bold;
+    color: white;
+    font-size: 28;
 }
 
 .about {
-    background-image: url("https://i.pinimg.com/564x/a9/45/9f/a9459fda6eff97eb2b335dc27b13db4c.jpg");
+    background-image: url("https://i.pinimg.com/474x/6e/6b/cb/6e6bcb8cb5e505db49cb7580d943c44a.jpg");
     background-size: cover;
     height: 100vh;
-    max-width: 100%;
 }
 
 .about_header {
     font-family: "Caveat";
-    font-size: 28px;
-    padding: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1px;
     color: black;
     margin: 10px;
 }
@@ -77,13 +83,13 @@
     padding: 10px;
     color: black;
     font-weight: bold;
-    margin: 10px;
+    margin: 1px;
 }
 
 .resume_bg {
     background-color: white;
     background-size: cover;
-    height: auto;
+    height: 100vh;
 }
 
 .resume_head {
@@ -128,7 +134,7 @@
 }
 
 .p_bg {
-    background-color: #8ecbe8;
+    background-color: #c79a58;
     background-size: cover;
     color: black;
     padding: 10px;
@@ -167,7 +173,7 @@
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    background-color: lightblue;
+    background-color: white;
 }
 
 .p_lst_header {
@@ -180,7 +186,7 @@
 
 .wcu-section {
     background-color: lightblue;
-    height: 100vh;
+    height: auto;
 }
 
 .wcu-section-heading {
